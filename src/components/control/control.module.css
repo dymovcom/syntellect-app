@@ -1,0 +1,29 @@
+.control {
+    display: flex;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+}
+
+.buttons > * {
+    margin-right: 8px;
+}
+
+.buttons > *:last-child {
+    margin-right: 0;
+}
+
+.buttons_start {
+    margin-right: 16px;
+}
+
+.buttons_end {
+    margin-left: 16px;
+}
+
+.input {
+    width: 350px;
+}
